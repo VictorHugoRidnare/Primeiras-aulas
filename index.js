@@ -1,3 +1,4 @@
+// Olá, apenas um comentário
 function Converter () {
     let valorEmdolar = parseFloat(document.getElementById("valor").value)
     let converteEmDollar = (valorEmdolar*5.23).toFixed(2)
