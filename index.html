@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de moedas
+        </h1>
+        <p class="page-subtitle">
+            Descubra os valores em U$
+        </p>
+        <div class="figure">
+            <img src="./images/vault treasury.png" class="dollar">
+            <br><img src="./images/money gif.gif" class="gif">
+        </div>
+        <br>
+        <label for="moeda">Insira um valor</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        <button type="submit" onclick="Converter()">Converter em dólar
+        </button>
+        <button type="submit" onclick="ConverterBitcoin()">Converter em Bitcoin
+        </button>
+        <h2 id="valorConvertido"></h2>
+        <h2 id="valorConvertido2"></h2>
+    </div>
+
+
+</body>
+
+</html>

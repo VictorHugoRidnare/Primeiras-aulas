@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monofonto; 
+    color: rgb(255, 182, 36);  
+}
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    font-size: large;
+}
+.page-subtitle {
+    padding: 10px;
+    font-size: x-large;
+}
+.dollar {
+    
+    padding: 10px;
+}
+.gif{
+    box-sizing: border-box;
+    height: 80px;
+    
+}
+.figure{
+    display: inline;
+    
+}
+button{
+    background: white;
+    margin: 7px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: monofonto;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+input{
+    margin: 10px;
+    padding: 6px;
+    background: white;
+    height: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: black;
+}
